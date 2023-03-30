@@ -186,10 +186,10 @@
         <h2 class="subtitle">
             Записаться на прием
         </h2>
-        <input type="text" class="contact-form__input">
-        <input type="text" class="contact-form__input">
-        <input type="text" class="contact-form__input">
-        <textarea class="contact-form__input contact-form__input_textarea"></textarea>
+        <input type="text" class="contact-form__input" placeholder="Ваше имя *">
+        <input type="text" class="contact-form__input" placeholder="Ваш телефон *">
+        <input type="text" class="contact-form__input" placeholder="Тема встречи *">
+        <textarea class="contact-form__input contact-form__input_textarea" placeholder="Пожелания"></textarea>
 
         <label class="contact-form__checkbox">
             <input type="checkbox">
@@ -200,14 +200,28 @@
             Отправить
         </button>
     </form>
+
+    <form class="center sales-form">
+        <h2 class="sales-form__subtitle">
+            Записаться со скидкой 50 грн
+        </h2>
+        <input type="text" class="sales-form__input" placeholder="Ваше имя *">
+        <input type="text" class="sales-form__input" placeholder="Ваш телефон *">
+        <button class="btn" type="submit">
+            Записаться со скидкой
+        </button>
+        <label class="contact-form__checkbox">
+            <input type="checkbox">
+            Я согласен с политикой конфиденциальности
+        </label>
+    </form>
+
 </main>
 
 <footer class="footer center">
     <a href="#" class="logo">
         <img src="img/logo.png" alt="logo">
     </a>
-
-
     <ul class="contacts-list">
         <li class="contacts-list__item">
             <a href="#" class="contacts-list__link">
