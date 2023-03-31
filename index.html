@@ -188,7 +188,14 @@
         </h2>
         <input type="text" class="contact-form__input" placeholder="Ваше имя *">
         <input type="text" class="contact-form__input" placeholder="Ваш телефон *">
-        <input type="text" class="contact-form__input" placeholder="Тема встречи *">
+        <label class="select">
+            <select class="select__input" name="select_item" id="select_item">
+                <option value="1">Вибір 1</option>
+                <option value="2">Вибір 2</option>
+                <option value="3">Вибір 3</option>
+            </select>
+            <img class="select_arrow" src="img/vector.png" alt="vector">
+        </label>
         <textarea class="contact-form__input contact-form__input_textarea" placeholder="Пожелания"></textarea>
 
         <label class="contact-form__checkbox">
@@ -200,17 +207,7 @@
             Отправить
         </button>
     </form>
-    <label class="select">
-        <select class="select__input" name="" id="">
-            <option value="1">Вибір 1</option>
-            <option value="2">Вибір 2</option>
-        </select>
-        <svg class="select__icon">
-            <use xlink:href="img/vectortriangle.svg#triangle_icon"></use>
-        </svg>
 
-
-    </label>
 
     <form class="center sales-form">
         <h2 class="sales-form__subtitle">
