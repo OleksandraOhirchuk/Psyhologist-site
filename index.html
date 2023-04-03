@@ -186,20 +186,20 @@
         <h2 class="subtitle">
             Записаться на прием
         </h2>
-        <input type="text" class="contact-form__input" placeholder="Ваше имя *">
-        <input type="text" class="contact-form__input" placeholder="Ваш телефон *">
+        <input type="text" class="contact-form__input" required placeholder="Ваше имя *">
+        <input type="text" class="contact-form__input" required placeholder="Ваш телефон *">
         <label class="select">
-            <select class="select__input" name="select_item" id="select_item">
+            <select class="select__input" name="select_item" id="select_item" required>
+                <option value="">Тема встречи *</option>
                 <option value="1">Вибір 1</option>
                 <option value="2">Вибір 2</option>
-                <option value="3">Вибір 3</option>
             </select>
             <img class="select_arrow" src="img/vector.png" alt="vector">
         </label>
         <textarea class="contact-form__input contact-form__input_textarea" placeholder="Пожелания"></textarea>
 
         <label class="contact-form__checkbox">
-            <input type="checkbox">
+            <input type="checkbox" required>
             Я согласен с политикой конфиденциальности
         </label>
 
@@ -213,13 +213,13 @@
         <h2 class="sales-form__subtitle">
             Записаться со скидкой 50 грн
         </h2>
-        <input type="text" class="sales-form__input" placeholder="Ваше имя *">
-        <input type="text" class="sales-form__input" placeholder="Ваш телефон *">
+        <input type="text" class="sales-form__input" required placeholder="Ваше имя *">
+        <input type="text" class="sales-form__input" required placeholder="Ваш телефон *">
         <button class="btn" type="submit">
             Записаться со скидкой
         </button>
         <label class="contact-form__checkbox">
-            <input type="checkbox">
+            <input type="checkbox" required>
             Я согласен с политикой конфиденциальности
         </label>
     </form>
