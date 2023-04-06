@@ -1,0 +1,208 @@
+/*desktop*/
+@media screen and (max-width: 1200px) {
+
+    .center {
+        padding-left: calc(50vw - 360px);
+        padding-right: calc(50vw - 360px);
+    }
+
+    .subtitle,
+    .sales-form__subtitle {
+        font-size: 30px;
+        margin: 30px 30px 30px 0;
+
+    }
+
+    .offer {
+        padding-top: 260px;
+        padding-bottom: 120px;
+        gap: 30px;
+    }
+
+    .offer__title {
+        font-size: 36px;
+        max-width: 350px;
+    }
+
+    .offer__desc {
+        font-size: 20px;
+    }
+
+    .services {
+        grid-template-columns: repeat(3, 220px);
+
+    }
+
+    .services__desc {
+        font-size: 12px;
+    }
+
+    .services__icon {
+        margin-bottom: 0px;
+    }
+
+    .services__title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .services__number {
+        font-size: 30px;
+    }
+
+    .contact-form {
+        padding-bottom: 15px;
+        padding-top: 30px;
+    }
+
+    .contacts-list {
+        flex-wrap: wrap;
+        gap: 10px 20px;
+
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-gap: 20px;
+    }
+
+    .about__text {
+        text-align: center;
+    }
+
+    .about__button {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .sales-form {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .sales-form__subtitle {
+        margin-top: 0;
+    }
+
+
+}
+
+/*iPhone 5/SE*/
+@media screen and (max-width: 750px) {
+    body {
+        font-size: 12px;
+    }
+
+    .center {
+        padding-left: calc(50vw - 260px);
+        padding-right: calc(50vw - 260px);
+    }
+
+    .header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: flex-start;
+
+    }
+
+    .btn {
+        max-width: 180px;
+
+    }
+
+    .nav__link {
+        font-size: 12px;
+    }
+
+    .logo {
+        max-width: 100px;
+    }
+
+    .offer {
+        padding-top: 90px;
+        padding-bottom: 60px;
+        row-gap: 15px;
+    }
+
+    .offer__title {
+        font-size: 30px;
+        max-width: 300px;
+    }
+
+    .offer__desc {
+        font-size: 15px;
+        max-width: 280px;
+    }
+
+    .services {
+        grid-template-columns: 300px;
+        justify-content: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        gap: 15px;
+    }
+
+    .about__text {
+        font-size: 12px;
+    }
+
+    .about {
+        padding-bottom: 30px;
+        padding-top: 30px;
+        grid-gap: 20px;
+
+    }
+
+    .about__title {
+        font-size: 18px;
+    }
+
+    .about__button {
+        gap: 10px;
+        font-size: 12px;
+        width: 300px;
+    }
+
+    .subtitle,
+    .sales-form__subtitle {
+        justify-content: center;
+        font-size: 18px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        gap: 15px;
+    }
+
+    .contact-form .subtitle,
+    .sales-form__subtitle {
+        padding-top: 0;
+        margin: 0;
+    }
+
+    .contact-form,
+    .sales-form {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        gap: 15px;
+    }
+
+    .contact-form .btn {
+        font-size: 12px;
+    }
+
+    .sales-form__input::placeholder,
+    .contact-form__input::placeholder {
+        font-size: 12px;
+    }
+
+    .select__input {
+        font-size: 12px;
+    }
+}
+
+
+
+
